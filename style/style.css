@@ -40,7 +40,7 @@ body {
 }
 
 .photo-3 {
-  top: 30rem;
+  top: 3rem;
   left: 10rem;
 }
 
@@ -57,7 +57,7 @@ body {
   opacity: 0.5%;
 }
 
-.grad-photo:hover {
+.rot-photo:hover {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
   outline: 1rem solid black;
@@ -67,7 +67,7 @@ body {
   transition: all 0.2s;
 }
 
-.gallery:hover grad-photo:not(:hover) {
+.gallery:hover rot-photo:not(:hover) {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0.5%;
@@ -75,5 +75,36 @@ body {
 
 .gallery-parent2 {
   background-image: url(gay.png);
+}
+
+.ref-photo:hover {
+  -webkit-filter: invert(0.4);
+          filter: invert(0.4);
+  outline: 1rem solid black;
+  z-index: 2;
+  outline-offset: 0.5rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.gallery:hover ref-photo:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.5%;
+}
+
+.gallery-parent {
+  margin: 0 auto;
+  width: 60rem;
+  height: 40rem;
+}
+
+.gallery2 {
+  font-size: 3rem;
+  position: relative;
+}
+
+.word {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
