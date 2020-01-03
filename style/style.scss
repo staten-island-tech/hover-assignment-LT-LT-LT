@@ -39,9 +39,11 @@ body {
   outline: 1rem solid black;
   z-index: 2;
 }
-.gallery:hover photo:not(:hover) {
+
+.gallery:hover .h-photo:not(:hover) {
   transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 .rot-photo:hover {
   transform: rotate(270deg);
@@ -51,9 +53,10 @@ body {
   outline-offset: 0.5rem;
   transition: all 0.2s;
 }
-.gallery:hover rot-photo:not(:hover) {
+.gallery:hover .rot-photo:not(:hover) {
   transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 .gallery-parent2 {
   background-image: url(gay.png);
@@ -68,9 +71,10 @@ body {
   outline-offset: 0.5rem;
   transition: all 0.2s;
 }
-.gallery:hover ref-photo:not(:hover) {
+.gallery:hover .ref-photo:not(:hover) {
   transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  transition: all 0.2s;
 }
 
 .gallery-parent {

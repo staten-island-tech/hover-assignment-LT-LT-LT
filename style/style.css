@@ -51,10 +51,12 @@ body {
   z-index: 2;
 }
 
-.gallery:hover photo:not(:hover) {
+.gallery:hover .h-photo:not(:hover) {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .rot-photo:hover {
@@ -67,10 +69,12 @@ body {
   transition: all 0.2s;
 }
 
-.gallery:hover rot-photo:not(:hover) {
+.gallery:hover .rot-photo:not(:hover) {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .gallery-parent2 {
@@ -87,10 +91,12 @@ body {
   transition: all 0.2s;
 }
 
-.gallery:hover ref-photo:not(:hover) {
+.gallery:hover .ref-photo:not(:hover) {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  opacity: 0.5%;
+  opacity: 0.5;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .gallery-parent {
