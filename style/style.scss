@@ -80,12 +80,13 @@ body {
 .gallery-parent {
   margin: 0 auto;
   width: 60rem;
-  height: 40rem;
-}
-.gallery2 {
-  font-size: 3rem;
-  position: relative;
+  height: 80rem;
 }
 .word {
   position: absolute;
+  font-size: 3rem;
+  left: 30rem;
+  top: 10rem;
+  filter: opacity(0);
+  
 }
