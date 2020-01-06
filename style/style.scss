@@ -86,7 +86,24 @@ body {
   position: absolute;
   font-size: 3rem;
   left: 30rem;
+
+  background: url(/gay.png);
+  z-index: 4;
   top: 10rem;
-  filter: opacity(0);
-  
+  background-clip: text;
+  color: transparent;
+}
+
+.box-photo:hover {
+  box-shadow: 3rem 1rem 1rem blue;
+  outline: 1rem solid black;
+  z-index: 2;
+
+  outline-offset: 0.5rem;
+  transition: all 0.2s;
+}
+.gallery:hover .box-photo:not(:hover) {
+  transform: scale(0.5);
+  opacity: 0.5;
+  transition: all 0.2s;
 }

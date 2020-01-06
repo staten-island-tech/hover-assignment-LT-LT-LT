@@ -109,8 +109,28 @@ body {
   position: absolute;
   font-size: 3rem;
   left: 30rem;
+  background: url(/gay.png);
+  z-index: 4;
   top: 10rem;
-  -webkit-filter: opacity(0);
-          filter: opacity(0);
+  background-clip: text;
+  color: transparent;
+}
+
+.box-photo:hover {
+  -webkit-box-shadow: 3rem 1rem 1rem blue;
+          box-shadow: 3rem 1rem 1rem blue;
+  outline: 1rem solid black;
+  z-index: 2;
+  outline-offset: 0.5rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.gallery:hover .box-photo:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.5;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 /*# sourceMappingURL=style.css.map */
