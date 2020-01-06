@@ -58,9 +58,6 @@ body {
   opacity: 0.5;
   transition: all 0.2s;
 }
-.gallery-parent2 {
-  background-image: url(gay.png);
-}
 .trans-photo {
 }
 .ref-photo:hover {
@@ -83,15 +80,16 @@ body {
   height: 80rem;
 }
 .word {
-  position: absolute;
-  font-size: 3rem;
+  font-size: 15rem;
   left: 30rem;
-
-  background: url(/gay.png);
+  margin: 0 auto;
+  width: 512px;
+  height: 316px;
+  background: url("../gay.png");
   z-index: 4;
   top: 10rem;
-  background-clip: text;
-  color: transparent;
+  -webkit-background-clip: text;
+  color:transparent;
 }
 
 .box-photo:hover {
@@ -106,4 +104,8 @@ body {
   transform: scale(0.5);
   opacity: 0.5;
   transition: all 0.2s;
+}
+.word:hover{
+  font-size: 20rem;
+  transition: all .2s;
 }
