@@ -82,16 +82,20 @@ body {
 .word {
   font-size: 15rem;
   left: 30rem;
-  margin: 0 auto;
+  margin: 0 auto; /* 
   width: 512px;
-  height: 316px;
+  height: 316px; */
   background: url("../gay.png");
   z-index: 4;
   top: 10rem;
   -webkit-background-clip: text;
-  color:transparent;
+  color: transparent;
 }
-
+button {
+  color: transparent;
+  background-color: transparent;
+  border: transparent;
+}
 .box-photo:hover {
   box-shadow: 3rem 1rem 1rem blue;
   outline: 1rem solid black;
@@ -105,7 +109,8 @@ body {
   opacity: 0.5;
   transition: all 0.2s;
 }
-.word:hover{
+.word:hover {
   font-size: 20rem;
-  transition: all .2s;
+  font-family: "Courier New", Courier, monospace;
+  transition: all 0.2s;
 }
